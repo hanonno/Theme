@@ -16,6 +16,15 @@
 		7D88C4D716D777A100920650 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D88C4D616D777A100920650 /* Default.png */; };
 		7D88C4D916D777A100920650 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D88C4D816D777A100920650 /* Default@2x.png */; };
 		7D88C4DB16D777A100920650 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D88C4DA16D777A100920650 /* Default-568h@2x.png */; };
+		7D88C4E316D777B800920650 /* OMGTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D88C4E216D777B800920650 /* OMGTheme.m */; };
+		7D88C4E716D778FA00920650 /* OMGThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D88C4E616D778FA00920650 /* OMGThemeViewController.m */; };
+		7D88C4FA16D77B7900920650 /* back-button-background-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D88C4F516D77B7900920650 /* back-button-background-highlighted@2x.png */; };
+		7D88C4FB16D77B7900920650 /* back-button-background-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D88C4F616D77B7900920650 /* back-button-background-normal@2x.png */; };
+		7D88C4FC16D77B7900920650 /* button-background-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D88C4F716D77B7900920650 /* button-background-highlighted@2x.png */; };
+		7D88C4FD16D77B7900920650 /* button-background-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D88C4F816D77B7900920650 /* button-background-normal@2x.png */; };
+		7D88C4FE16D77B7900920650 /* navigation-bar-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D88C4F916D77B7900920650 /* navigation-bar-background@2x.png */; };
+		7D88C50216D7880E00920650 /* OMGBarLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D88C50116D7880E00920650 /* OMGBarLabelItem.m */; };
+		7D88C50416D7AE7900920650 /* toolbar-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D88C50316D7AE7900920650 /* toolbar-background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,19 @@
 		7D88C4D616D777A100920650 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7D88C4D816D777A100920650 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7D88C4DA16D777A100920650 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7D88C4E116D777B800920650 /* OMGTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGTheme.h; sourceTree = "<group>"; };
+		7D88C4E216D777B800920650 /* OMGTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGTheme.m; sourceTree = "<group>"; };
+		7D88C4E516D778FA00920650 /* OMGThemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMGThemeViewController.h; path = Example/OMGThemeViewController.h; sourceTree = "<group>"; };
+		7D88C4E616D778FA00920650 /* OMGThemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMGThemeViewController.m; path = Example/OMGThemeViewController.m; sourceTree = "<group>"; };
+		7D88C4F416D77AB300920650 /* theme-ui-elements.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "theme-ui-elements.psd"; sourceTree = "<group>"; };
+		7D88C4F516D77B7900920650 /* back-button-background-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-button-background-highlighted@2x.png"; path = "images/images/back-button-background-highlighted@2x.png"; sourceTree = "<group>"; };
+		7D88C4F616D77B7900920650 /* back-button-background-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-button-background-normal@2x.png"; path = "images/images/back-button-background-normal@2x.png"; sourceTree = "<group>"; };
+		7D88C4F716D77B7900920650 /* button-background-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-background-highlighted@2x.png"; path = "images/images/button-background-highlighted@2x.png"; sourceTree = "<group>"; };
+		7D88C4F816D77B7900920650 /* button-background-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-background-normal@2x.png"; path = "images/images/button-background-normal@2x.png"; sourceTree = "<group>"; };
+		7D88C4F916D77B7900920650 /* navigation-bar-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navigation-bar-background@2x.png"; path = "images/images/navigation-bar-background@2x.png"; sourceTree = "<group>"; };
+		7D88C50016D7880E00920650 /* OMGBarLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMGBarLabelItem.h; path = "Bar Items/OMGBarLabelItem.h"; sourceTree = "<group>"; };
+		7D88C50116D7880E00920650 /* OMGBarLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMGBarLabelItem.m; path = "Bar Items/OMGBarLabelItem.m"; sourceTree = "<group>"; };
+		7D88C50316D7AE7900920650 /* toolbar-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbar-background@2x.png"; path = "images/images/toolbar-background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +102,8 @@
 			children = (
 				7D88C4D316D777A100920650 /* OMGAppDelegate.h */,
 				7D88C4D416D777A100920650 /* OMGAppDelegate.m */,
+				7D88C4E816D7790600920650 /* Theme */,
+				7D88C4E416D778E700920650 /* Example */,
 				7D88C4CB16D777A100920650 /* Supporting Files */,
 			);
 			path = OMGTheme;
@@ -97,6 +121,49 @@
 				7D88C4DA16D777A100920650 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D88C4E416D778E700920650 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				7D88C4E516D778FA00920650 /* OMGThemeViewController.h */,
+				7D88C4E616D778FA00920650 /* OMGThemeViewController.m */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		7D88C4E816D7790600920650 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				7D88C4FF16D787EB00920650 /* Buttons */,
+				7D88C4F416D77AB300920650 /* theme-ui-elements.psd */,
+				7D88C4E916D77A3700920650 /* Images */,
+				7D88C4E116D777B800920650 /* OMGTheme.h */,
+				7D88C4E216D777B800920650 /* OMGTheme.m */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		7D88C4E916D77A3700920650 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7D88C50316D7AE7900920650 /* toolbar-background@2x.png */,
+				7D88C4F516D77B7900920650 /* back-button-background-highlighted@2x.png */,
+				7D88C4F616D77B7900920650 /* back-button-background-normal@2x.png */,
+				7D88C4F716D77B7900920650 /* button-background-highlighted@2x.png */,
+				7D88C4F816D77B7900920650 /* button-background-normal@2x.png */,
+				7D88C4F916D77B7900920650 /* navigation-bar-background@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7D88C4FF16D787EB00920650 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				7D88C50016D7880E00920650 /* OMGBarLabelItem.h */,
+				7D88C50116D7880E00920650 /* OMGBarLabelItem.m */,
+			);
+			name = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +222,12 @@
 				7D88C4D716D777A100920650 /* Default.png in Resources */,
 				7D88C4D916D777A100920650 /* Default@2x.png in Resources */,
 				7D88C4DB16D777A100920650 /* Default-568h@2x.png in Resources */,
+				7D88C4FA16D77B7900920650 /* back-button-background-highlighted@2x.png in Resources */,
+				7D88C4FB16D77B7900920650 /* back-button-background-normal@2x.png in Resources */,
+				7D88C4FC16D77B7900920650 /* button-background-highlighted@2x.png in Resources */,
+				7D88C4FD16D77B7900920650 /* button-background-normal@2x.png in Resources */,
+				7D88C4FE16D77B7900920650 /* navigation-bar-background@2x.png in Resources */,
+				7D88C50416D7AE7900920650 /* toolbar-background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +240,9 @@
 			files = (
 				7D88C4D116D777A100920650 /* main.m in Sources */,
 				7D88C4D516D777A100920650 /* OMGAppDelegate.m in Sources */,
+				7D88C4E316D777B800920650 /* OMGTheme.m in Sources */,
+				7D88C4E716D778FA00920650 /* OMGThemeViewController.m in Sources */,
+				7D88C50216D7880E00920650 /* OMGBarLabelItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

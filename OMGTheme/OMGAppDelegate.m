@@ -7,15 +7,23 @@
 //
 
 #import "OMGAppDelegate.h"
+#import "OMGTheme.h"
+#import "OMGThemeViewController.h"
 
 @implementation OMGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[[OMGTheme alloc] init] apply];
+    
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:[[OMGThemeViewController alloc] init]];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = self.navigationController;
+    
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
