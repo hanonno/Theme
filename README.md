@@ -9,3 +9,6 @@ Theme utility class for iOS.
 
 
 
+![Photoshop Template](https://raw.github.com/hanonno/Theme/master/Readme/photoshop-template.png)
+
+![Simulator Screenshot](https://raw.github.com/hanonno/Theme/master/Readme/simulator-screenshot.png)
